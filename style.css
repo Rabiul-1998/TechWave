@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+*{
+    margin: 0;
+}
+
+/* shared style  */
+.button-primary{
+    background: linear-gradient(47deg, #F7E93F, #FA4396, #FB09B4, #9100F8);
+    color: white;
+    padding: 12.5px 16px 12.5px 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+
+/* navbar-style */
+.brand{
+    font-size: 2rem;
+    font-weight: 219px;
+}
+
+.brand .tech{
+    color: white;
+    
+}
+.brand .wave{
+    background: linear-gradient(to top, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-container{
+    background-color: #1A0B2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav-content{
+    max-width: 218px;
+    
+}
+
+.nav-links{
+    max-width: 218px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.nav-item{
+    list-style: none;
+    
+    
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+}
+
