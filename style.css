@@ -183,6 +183,150 @@
     cursor: pointer;
 }
 
+/* about-section */
+.about-section{
+    background-color: #1A0B2E;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-container{
+    max-width: 1200px;
+    
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-content h3{
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 16px;
+}
+.about-content .first{
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+.second{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.summary-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px;
+    padding-bottom: 120px;
+    place-items: center;
+    gap: 80px;
+
+    
+}
+
+.summary{
+    display: grid;
+
+    
+}
+
+.summary h3{
+    color: #00FF88;
+    font-size: 3.8rem;
+    width: 240px;
+    
+}
+.summary p{
+    color: white;
+}
+
+/* choose-section */
+
+.choose{
+    display: flex;
+    justify-content: space-around;
+    background-color: #230E3D;
+}
+.choose-container{
+
+    margin: o auto;
+    max-width: 1200px;
+    
+}
+
+.choose-heading{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.choose-heading h3{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.card-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.card{
+    background: #2a0f4e;
+    border-radius: 16px;
+    padding: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-1{
+    grid-column: span 1;
+    grid-row: span 2;
+
+}
+
+.card-1 .card{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card-2{
+    grid-column: span 2;
+}
+
+.card-3{
+    grid-column: span 2;
+}
+
+.card-4{
+    grid-column: span 2 ;
+}
+.card-5{
+    grid-column: span 1;
+}
+
+.card-box img {
+    width: 34px;
+    margin-bottom: 16px;
+}
+
+.card-box h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-box p {
+    font-size: 14px;
+    line-height: 1.55;
+    opacity: 0.85;
+}
 
 
 /* footer-section */
